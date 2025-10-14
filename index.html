@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charles Bouquet — Liens</title>
+    <style>
+        :root {
+            --bg: #f9fafb;
+            --text: #111827;
+            --accent: #4f46e5;
+            --hover: #e0e7ff;
+        }
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        p {
+            font-size: 0.9rem;
+            color: #4b5563;
+            margin-bottom: 1.5rem;
+        }
+        a {
+            display: block;
+            padding: 0.6rem 1rem;
+            margin: 0.4rem 0;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            width: 240px;
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 500;
+            transition: background 0.2s, transform 0.1s;
+        }
+        a:hover {
+            background: var(--hover);
+            transform: translateY(-2px);
+        }
+        footer {
+            position: absolute;
+            bottom: 1rem;
+            font-size: 0.75rem;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+<body>
+    <img src="./utils/photoCV.jpg" alt="Photo de profil">
+    <h1>Charles Bouquet</h1>
+    <p>Étudiant en télécommunications à l'INSA Lyon</p>
+
+    <a href="https://www.linkedin.com/in/charles-bouquet-a5a9a6244/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/CharlesBouquet1011" target="_blank">GitHub</a>
+    <a href="https://gitlab.com/CharlesBouquet1011" target="_blank">GitLab</a>
+    <a href="./CV_FR.pdf" target="_blank">CV Français</a>
+    <a href="./CV_EN.pdf" target="_blank">English CV</a>
+    <a href="mailto:charles.bouquet@insa-lyon.fr">Email</a>
+    <br><br><br>    
+    <footer>©2025 — Charles Bouquet</footer>
+</body>
+</html>
